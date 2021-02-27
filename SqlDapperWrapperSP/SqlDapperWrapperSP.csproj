@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageId>DenisJakus.SqlDapperWrapperSP</PackageId>
+    <Authors>Denis Jakus</Authors>
+    <Company>Denis Jakus</Company>
+    <Description>Wrapper around SqlDapper when using stored procedures together with repository pattern.
+
+
+<div>Icons made by <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div></Description>
+    <Copyright>Denis Jakus</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>sql.png</PackageIcon>
+    <RepositoryUrl>https://github.com/denisjakus/SqlDapperWrapperSP</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>sql, wrapper, sql dapper,sqldapper,dapper, stored procedure, stored procedures</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper.Mapper" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\A687120\Downloads\sql.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
