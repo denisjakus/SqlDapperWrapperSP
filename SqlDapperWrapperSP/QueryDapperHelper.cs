@@ -173,7 +173,7 @@ namespace SqlDapperWrapperSP
         /// <param name="types">List of type classes expected as a resultsets/datatables</param>
         /// <param name="storedProcedureName">Name of stored procedure to be executed</param>
         /// <param name="parameters">One or more parameters to be sent to stored procedure</param>
-        /// <returns>Maps the result to type bool</returns>
+        /// <returns>Maps the result to type List of object</returns>
 
         public async Task<List<object>> QueryMultipleAsync(List<Type> types, string storedProcedureName, object parameters)
         {
